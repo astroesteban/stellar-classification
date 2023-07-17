@@ -1,0 +1,22 @@
+name: stellar
+channels:
+  - pytorch
+  - conda-forge
+  - fastchan
+dependencies:
+  - python=3.10
+  - pip
+  - black
+  - pylint
+  - pytest
+  - nbqa
+  - fastai
+  - fastbook
+  - kaggle
+  - ipywidgets
+  - widgetsnbextension
+  - ipykernel
+  # - seaborn # TODO: DELETE
+  - plotly
+  - nbformat
+  - sentencepiece
