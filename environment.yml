@@ -16,7 +16,8 @@ dependencies:
   - ipywidgets
   - widgetsnbextension
   - ipykernel
-  # - seaborn # TODO: DELETE
-  - plotly
+  - seaborn
   - nbformat
   - sentencepiece
+  pip:
+    - imblearn
